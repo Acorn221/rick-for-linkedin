@@ -1,8 +1,8 @@
 {
-  "name": "operation-rick",
-  "displayName": "Operation rick",
+  "name": "rickedin",
+  "displayName": "RickedIn for LinkedIn",
   "version": "0.0.1",
-  "description": "Rick for LinkedIn",
+  "description": "Ever wanted to get LinkedIn out of your life? Get RickedIn to redirect you to Rick Astley's Never Gonna Give You Up and detach yourself from the hellhole that is LinkedIn",
   "author": "help@j4a.uk",
   "scripts": {
     "dev": "plasmo dev",
@@ -24,8 +24,11 @@
     "typescript": "5.3.3"
   },
   "manifest": {
-    "host_permissions": [
-      "https://*/*"
+    "web_accessible_resources": [
+      {
+        "resources": ["assets/Were_no_strangers_to_love/You_know_the_rules_and_so_do_I/A_full_commitments_what_Im_thinkin_of/You_wouldnt_get_this_from_any_other_guy/I_just_wanna_tell_you_how_Im_feeling/Gotta_make_you_understand/Never_gonna_give_you_up/Never_gonna_let_you_down/Never_gonna_run_around_and_desert_you/Never_gonna_make_you_cry/Never_gonna_say_goodbye/Never_gonna_tell_a_lie_and_hurt_you/Weve_known_each_other_for_so_long/Your_hearts_been_aching_but_youre_too_shy_to_say_it/Inside_we_both_know_whats_been_going_on/We_know_the_game_and_were_gonna_play_it/And_if_you_ask_me_how_Im_feeling/Dont_tell_me_youre_too_blind_to_see/Never_gonna_give_you_up/Never_gonna_let_you_down/Never_gonna_run_around_and_desert_you/Never_gonna_make_you_cry/Never_gonna_say_goodbye/Never_gonna_tell_a_lie_and_hurt_you/Never_gonna_give_you_up/Never_gonna_let_you_down/Never_gonna_run_around_and_desert_you/Never_gonna_make_you_cry/Never_gonna_say_goodbye/Never_gonna_tell_a_lie_and_hurt_you/rick.txt"],
+        "matches": [ "https://linkedin.com/*" ]
+      }
     ]
   }
 }
